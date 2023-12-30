@@ -1,4 +1,4 @@
-/* src/app/_components/HeaderMobileNav.tsx */
+/* src/app/_components/_pages/_home/_navbar/NavbarMobile.tsx */
 
 'use client';
 
@@ -10,7 +10,7 @@ import headerNavLinks from '@/_data/headerNavLinks';
 import LinkButton from '@/_components/_shared/LinkButton';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
-export default function HeaderMobileNav() {
+export default function NavbarMobile() {
   const [navShow, setNavShow] = useState(false);
 
   const onToggleNav = () => {

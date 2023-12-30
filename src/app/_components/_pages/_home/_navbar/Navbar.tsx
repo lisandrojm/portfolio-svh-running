@@ -1,4 +1,4 @@
-/* src/app/_components/eader.tsx */
+/* src/app/_components/_pages/_home/_navbar/Navbar.tsx */
 
 import siteMetadata from '@/_data/siteMetadata';
 import headerNavLinks from '@/_data/headerNavLinks';

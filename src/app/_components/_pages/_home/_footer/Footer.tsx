@@ -1,4 +1,4 @@
-/* src/app/_components/Footer.tsx */
+/* src/app/_components/_pages/_home/_footer/Footer.tsx */
 
 import siteMetadata from '@/_data/siteMetadata';
 import LinkIcon from '@/_components/_icons/LinksIcons';

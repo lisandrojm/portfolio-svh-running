@@ -1,4 +1,4 @@
-/* src/app/_components/_ui/LinkButton.tsx */
+/* src/app/_components/_shared/LinkButton.tsx */
 
 import React from 'react';
 import CustomLink from './CustomLink';

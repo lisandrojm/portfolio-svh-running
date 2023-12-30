@@ -1,4 +1,4 @@
-/* src/app/_components/Provider.tsx */
+/* src/app/_components/_pages/_layout/Provider.tsx */
 
 'use client';
 

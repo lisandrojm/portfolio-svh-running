@@ -1,4 +1,4 @@
-/* src/app/_components/Background.tsx */
+/* src/app/_components/_pages/_layout/Background.tsx */
 
 import styles from '@/_styles/_components/Background.module.css';
 import BgIcons from '@/_components/_icons/BgIcons';

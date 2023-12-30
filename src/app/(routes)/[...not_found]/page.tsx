@@ -1,4 +1,4 @@
-/* src/app/(routes)/page.tsx */
+/* src/app/(routes)/[...not_found]/page.tsx */
 
 import { notFound } from 'next/navigation';
 

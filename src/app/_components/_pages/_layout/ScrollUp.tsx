@@ -1,4 +1,4 @@
-/* src/app/_components/ScrollUp.tsx */
+/* src/app/_components/_pages/_layout/ScrollUp.tsx */
 
 'use client';
 

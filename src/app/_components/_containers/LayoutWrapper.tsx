@@ -1,4 +1,4 @@
-/* src/app/_components/LayoutWrapper.tsx */
+/* src/app/_components/_containers/LayoutWrapper.tsx */
 
 import Footer from '@/_components/_pages/_home/_footer/Footer';
 import { ReactNode } from 'react';
