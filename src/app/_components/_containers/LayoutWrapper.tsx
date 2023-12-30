@@ -10,7 +10,7 @@ interface Props {
 
 const LayoutWrapper = ({ children }: Props) => {
   return (
-    <div className="flex height-svh flex-col justify-between bg-violet">
+    <div className="flex h-screen flex-col justify-between">
       <Navbar />
       <main className="mb-auto">{children}</main>
       <Footer />

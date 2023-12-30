@@ -15,7 +15,7 @@ interface NavLink {
 
 export default function Navbar() {
   return (
-    <header className={`sticky top-0 bg-black z-10 w-full `}>
+    <header className={`fixed top-0 bg-black z-10 w-full `}>
       <nav>
         <SectionXContainer>
           <div className="flex items-center justify-between pt-4 pb-2 border-b border-white px-3">

@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/_styles/page.module.css';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
+import Works from '@/_components/_pages/_home/_sections/Works';
+import Skills from '@/_components/_pages/_home/_sections/Skills';
 
 /* export default async function Home() { */
 /* loading testing */
@@ -12,9 +14,11 @@ import SectionXContainer from '@/_components/_containers/SectionXContainer';
 export default function Home() {
   return (
     <SectionXContainer>
-      <div className="px-3 flex justify-center items-center h-full bg-blue">
-        <h1>Header</h1>
+      <div className="mt-30 bg-blue h-screen flex items-cente justify-center">
+        <h1>header</h1>
       </div>
+      <Works />
+      <Skills />
     </SectionXContainer>
   );
 }
