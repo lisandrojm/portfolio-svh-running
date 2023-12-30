@@ -2,15 +2,14 @@
 
 import siteMetadata from '@/_data/siteMetadata';
 import LinkIcon from '@/_components/_icons/LinksIcons';
-import Link from 'next/link';
-import CustomLink from '@/_components/_shared/CustomLink';
+import CustomLink from '@/_components/_links/CustomLink';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 export default function Footer() {
   return (
     <footer>
       <SectionXContainer>
-        <div className="pt-4 pb-5 border-t border-white flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-3">
+        <div className="pb-5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-3">
           <div className="flex justify-center items-center xs--hide">
             <h6 className="font-serif text-md text-orange">
               site stack <span className="px-2">|</span>

@@ -5,7 +5,7 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
-import Icon from '../../../_icons/ButtonsIcons';
+import Icon from '@/_components/_icons/ButtonsIcons';
 
 export default function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);

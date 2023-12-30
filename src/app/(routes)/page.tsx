@@ -1,11 +1,15 @@
 /* src/app/(routes)/page.tsx */
 
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from '@/_styles/page.module.css';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
+import Background from '@/_components/_pages/_layout/Background';
+import ScrollUp from '@/_components/_pages/_layout/ScrollUp';
 import Works from '@/_components/_pages/_home/_sections/Works';
 import Skills from '@/_components/_pages/_home/_sections/Skills';
+import About from '@/_components/_pages/_home/_sections/About';
+import Contact from '@/_components/_pages/_home/_sections/Contact';
+import Form from '@/_components/_pages/_home/_sections/Form';
+import Header from '@/_components/_pages/_shared/_header/Header';
+import Footer from '@/_components/_pages/_shared/_footer/Footer';
 
 /* export default async function Home() { */
 /* loading testing */
@@ -13,12 +17,20 @@ import Skills from '@/_components/_pages/_home/_sections/Skills';
 
 export default function Home() {
   return (
-    <SectionXContainer>
-      <div className="mt-30 bg-blue h-screen flex items-cente justify-center">
-        <h1>header</h1>
-      </div>
-      <Works />
-      <Skills />
-    </SectionXContainer>
+    <>
+      <Background />
+      <Header />
+      <main>
+        <SectionXContainer>
+          <Works />
+          <Skills />
+          <About />
+          <Contact />
+          <Form />
+        </SectionXContainer>
+      </main>
+      <Footer />
+      <ScrollUp />
+    </>
   );
 }

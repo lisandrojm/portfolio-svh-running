@@ -1,7 +1,5 @@
 /* src/app/_components/_ui/Button.tsx */
 
-import React from 'react';
-
 export interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   size?: 'sm' | 'md' | 'lg' | 'xl' | 'xxl';

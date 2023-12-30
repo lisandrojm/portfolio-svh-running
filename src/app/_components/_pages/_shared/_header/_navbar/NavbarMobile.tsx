@@ -4,10 +4,10 @@
 
 import { useState } from 'react';
 import siteMetadata from '@/_data/siteMetadata';
-import CustomLink from '../../../_shared/CustomLink';
+import CustomLink from '@/_components/_links/CustomLink';
 import LinkIcon from '@/_components/_icons/LinksIcons';
 import headerNavLinks from '@/_data/headerNavLinks';
-import LinkButton from '@/_components/_shared/LinkButton';
+import LinkButton from '@/_components/_links/LinkButton';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 export default function NavbarMobile() {
@@ -59,7 +59,7 @@ export default function NavbarMobile() {
               ))}
             </ul>
             <div className="py-4 ">
-              <LinkButton href="/form" size="xxl" font="mono" onClick={onToggleNav}>
+              <LinkButton href="/route" size="xxl" font="mono" onClick={onToggleNav}>
                 Contact Me
               </LinkButton>
             </div>
