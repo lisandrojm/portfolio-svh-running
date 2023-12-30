@@ -124,6 +124,11 @@ body {
   font-family: var(--font-serif), serif;
 }
 
+/* Height viewport */
+.height-svh {
+  height: 100svh;
+}
+
 /* Media queries */
 
 @media (min-width: 992px) {
