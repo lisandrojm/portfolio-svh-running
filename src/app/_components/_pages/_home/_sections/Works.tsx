@@ -9,7 +9,7 @@ export default function Works() {
       <p className="py-20 bg-violet text-center">Work</p>
       <div className="sticky bottom-0  w-full text-2xl text-start pb-5">
         <div>
-          <h1 className=" border-b border-white font-serif italic">Works</h1>
+          <h1 className=" border-b border-white font-serif italic">works</h1>
         </div>
       </div>
     </section>

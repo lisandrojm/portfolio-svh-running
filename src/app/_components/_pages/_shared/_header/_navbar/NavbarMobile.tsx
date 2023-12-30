@@ -59,7 +59,7 @@ export default function NavbarMobile() {
               ))}
             </ul>
             <div className="py-4 ">
-              <LinkButton href="/route" size="xxl" font="mono" onClick={onToggleNav}>
+              <LinkButton href="/form" size="xxl" font="mono" onClick={onToggleNav}>
                 Contact Me
               </LinkButton>
             </div>

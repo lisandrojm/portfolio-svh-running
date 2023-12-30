@@ -6,7 +6,7 @@ export default function Skills() {
       <p className="py-20 bg-blue text-center">Skills</p>
       <div className="sticky bottom-0  w-full text-2xl text-start pb-5">
         <div>
-          <h1 className=" border-b border-white font-serif italic">Skills</h1>
+          <h1 className=" border-b border-white font-serif italic">skills</h1>
         </div>
       </div>
     </section>

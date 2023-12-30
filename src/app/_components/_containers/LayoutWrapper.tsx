@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import Navbar from '@/_components/_pages/_shared/_header/_navbar/Navbar';
 import Footer from '@/_components/_pages/_shared/_footer/Footer';
+import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 interface Props {
   children: ReactNode;
@@ -9,7 +10,9 @@ interface Props {
 const LayoutWrapper = ({ children }: Props) => {
   return (
     <div className="flex h-svh flex-col justify-between">
-      <Navbar />
+      <SectionXContainer>
+        <Navbar />
+      </SectionXContainer>
       <main className="mb-auto">{children}</main>
       <Footer />
     </div>

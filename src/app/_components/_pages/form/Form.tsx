@@ -10,7 +10,7 @@ export default function Form() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div>
+    <SectionXContainer>
       <div className="mx-auto uppercase max-w-md px-6 lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-orange sm:text-4xl">
           Let&apos;s go <br />
@@ -39,11 +39,6 @@ export default function Form() {
           <Button type="submit">Send</Button>
         </div>
       </form>
-      <div className="sticky bottom-0  w-full text-2xl text-start pb-5">
-        <div>
-          <h1 className=" border-b border-white font-serif italic">Form</h1>
-        </div>
-      </div>
-    </div>
+    </SectionXContainer>
   );
 }

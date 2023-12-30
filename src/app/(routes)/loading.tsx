@@ -1,6 +1,6 @@
 /* src/app/(routes)/loading.tsx */
 
-export default function Loading() {
+export default function RootLoading() {
   return (
     <div className="flex flex-col items-center justify-center h-svh">
       <div className="border rounded p-3 my-1 mb-3">

@@ -7,7 +7,6 @@ import Works from '@/_components/_pages/_home/_sections/Works';
 import Skills from '@/_components/_pages/_home/_sections/Skills';
 import About from '@/_components/_pages/_home/_sections/About';
 import Contact from '@/_components/_pages/_home/_sections/Contact';
-import Form from '@/_components/_pages/_home/_sections/Form';
 import Header from '@/_components/_pages/_shared/_header/Header';
 import Footer from '@/_components/_pages/_shared/_footer/Footer';
 
@@ -15,7 +14,7 @@ import Footer from '@/_components/_pages/_shared/_footer/Footer';
 /* loading testing */
 /*   await new Promise((resolve) => setTimeout(resolve, 1000)); */
 
-export default function Home() {
+export default function RootHome() {
   return (
     <>
       <Background />
@@ -26,7 +25,6 @@ export default function Home() {
           <Skills />
           <About />
           <Contact />
-          <Form />
         </SectionXContainer>
       </main>
       <Footer />

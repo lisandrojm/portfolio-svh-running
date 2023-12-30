@@ -1,7 +1,8 @@
 /* src/app/(routes)/route/page.tsx */
+
 import LayoutWrapper from '@/_components/_containers/LayoutWrapper';
 
-export default function route() {
+export default function RootRoutePage() {
   return (
     <LayoutWrapper>
       <div className="flex flex-col items-center justify-center">

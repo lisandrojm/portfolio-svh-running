@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function NotFound() {
+export default function RootNotFound() {
   return (
     <div className="container mx-auto px-10">
       <h2>Not Found</h2>

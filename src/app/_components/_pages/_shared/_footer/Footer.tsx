@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer>
       <SectionXContainer>
-        <div className="pb-5 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-3">
+        <div className="border-t border-white pb-5 pt-4 px-3 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div className="flex justify-center items-center xs--hide">
             <h6 className="font-serif text-md text-orange">
               site stack <span className="px-2">|</span>
