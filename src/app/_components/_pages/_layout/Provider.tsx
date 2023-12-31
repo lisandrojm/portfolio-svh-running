@@ -1,15 +1,13 @@
-/* src/app/_components/_pages/_layout/Provider.tsx */
-
+// src/app/_components/_pages/_layout/Provider.tsx
 'use client';
-
 import { ThemeProvider } from 'next-themes';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, ReactNode } from 'react';
 
 type Props = {
-  children: string | React.JSX.Element | React.JSX.Element[];
+  children: ReactNode;
 };
 
-const Provider = ({ children }: Props) => {
+const Provider: React.FC<Props> = ({ children }: Props) => {
   const [mounted, setMounted] = useState<boolean>(false);
 
   useEffect(() => {
@@ -21,7 +19,7 @@ const Provider = ({ children }: Props) => {
   }
 
   return (
-    <ThemeProvider enableSystem={true} attribute="data-theme" defaultTheme="dark">
+    <ThemeProvider enableSystem={false} attribute="data-theme" defaultTheme="dark">
       {children}
     </ThemeProvider>
   );

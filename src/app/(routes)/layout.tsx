@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 import siteMetadata from '@/_data/siteMetadata';
 import { Roboto_Mono, Roboto_Serif, Roboto_Flex } from 'next/font/google';
 import '@/_styles/globals.css';
-import Provider from '@/_components/_pages/_layout/Provider';
 const roboto_mono = Roboto_Mono({ subsets: ['latin'], variable: '--font-mono' });
 const roboto_serif = Roboto_Serif({ subsets: ['latin'], variable: '--font-serif' });
 const roboto_flex = Roboto_Flex({ subsets: ['latin'], variable: '--font-flex' });
@@ -103,9 +102,7 @@ export const metadata: Metadata & {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang={siteMetadata.language} className={`${roboto_mono.variable} ${roboto_serif.variable} ${roboto_flex.variable}`}>
-      <Provider>
-        <body className="font-mono">{children}</body>
-      </Provider>
+      <body className="font-mono">{children}</body>
     </html>
   );
 }

@@ -1,5 +1,6 @@
 /* src/app/(routes)/page.tsx */
 
+import Provider from '@/_components/_pages/_layout/Provider';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 import Background from '@/_components/_shared/Background';
 import ScrollUp from '@/_components/_pages/_layout/ScrollUp';
@@ -16,7 +17,7 @@ import Footer from '@/_components/_pages/_shared-pages/_footer/Footer';
 
 export default function RootHome() {
   return (
-    <>
+    <Provider>
       <Background />
       <Header />
       <main>
@@ -29,6 +30,6 @@ export default function RootHome() {
       </main>
       <Footer />
       <ScrollUp />
-    </>
+    </Provider>
   );
 }
