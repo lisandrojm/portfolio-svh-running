@@ -2,12 +2,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FaNodeJs, FaHtml5, FaGithub, FaReact, FaBootstrap, FaGit } from 'react-icons/fa';
+import { FaHtml5, FaGithub, FaGit, FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { TbBrandNextjs, TbBrandVercel } from 'react-icons/tb';
-import { SiTailwindcss, SiExpress, SiNestjs, SiTypescript, SiMongodb } from 'react-icons/si';
+import { SiTailwindcss, SiExpress, SiNestjs, SiTypescript, SiMongodb, SiNeovim, SiVisualstudiocode, SiRailway } from 'react-icons/si';
 
-type BgIconsProps = {
+type IconsProps = {
   kind: keyof typeof components;
   size?: number;
 };
@@ -15,21 +15,24 @@ type BgIconsProps = {
 const components = {
   html: FaHtml5,
   github: FaGithub,
+  git: FaGit,
   react: FaReact,
-  nextjs: TbBrandNextjs,
-  tailwind: SiTailwindcss,
-  vercel: TbBrandVercel,
-  js: IoLogoJavascript,
-  bootstrap: FaBootstrap,
   nodejs: FaNodeJs,
+  bootstrap: FaBootstrap,
+  js: IoLogoJavascript,
+  nextjs: TbBrandNextjs,
+  vercel: TbBrandVercel,
+  tailwind: SiTailwindcss,
   express: SiExpress,
   nestjs: SiNestjs,
   ts: SiTypescript,
-  git: FaGit,
   mongodb: SiMongodb,
+  neovim: SiNeovim,
+  vscode: SiVisualstudiocode,
+  railway: SiRailway,
 };
 
-const BgIcons: React.FC<BgIconsProps> = ({ kind, size = 2 }) => {
+const BgIcons: React.FC<IconsProps> = ({ kind, size = 2 }) => {
   const IconComponent = components[kind];
 
   return (

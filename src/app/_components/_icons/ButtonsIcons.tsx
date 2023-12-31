@@ -7,14 +7,14 @@ const components = {
   moon: FaMoon,
 };
 
-type SocialIconProps = {
+type ButtonIconsProps = {
   kind: keyof typeof components;
   size?: number;
   color?: string;
   onClick?: () => void;
 };
 
-const Icon = ({ kind, size, color, onClick }: SocialIconProps) => {
+const Icon = ({ kind, size, color, onClick }: ButtonIconsProps) => {
   const IconComponent = components[kind];
 
   return (
