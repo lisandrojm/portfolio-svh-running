@@ -1,8 +1,8 @@
-/* src/app/_components/_pages/_home/_footer/Footer.tsx */
+/* src/app/_components/_pages/_shared-pages/+_home/_footer/Footer.tsx */
 
 import siteMetadata from '@/_data/siteMetadata';
 import LinkIcon from '@/_components/_icons/LinksIcons';
-import CustomLink from '@/_components/_links/CustomLink';
+import CustomLink from '@/_components/_shared/CustomLink';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 export default function Footer() {

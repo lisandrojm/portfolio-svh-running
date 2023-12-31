@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
-import Navbar from '@/_components/_pages/_shared/_header/_navbar/Navbar';
-import Footer from '@/_components/_pages/_shared/_footer/Footer';
+import Navbar from '@/_components/_pages/_shared-pages/_header/_navbar/Navbar';
+import Footer from '@/_components/_pages/_shared-pages/_footer/Footer';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 interface Props {

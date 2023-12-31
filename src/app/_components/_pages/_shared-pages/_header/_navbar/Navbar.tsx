@@ -1,10 +1,10 @@
-/* src/app/_components/_pages/_home/_navbar/Navbar.tsx */
+/* src/app/_components/_pages/_shared-pages/_navbar/Navbar.tsx */
 
 import siteMetadata from '@/_data/siteMetadata';
 import headerNavLinks from '@/_data/headerNavLinks';
-import CustomLink from '@/_components/_links/CustomLink';
-import NavbarMobile from '@/_components/_pages/_shared/_header/_navbar/NavbarMobile';
-import ThemeSwitcher from '@/_components/_pages/_shared/_header/_navbar/ThemeSwitcher';
+import CustomLink from '@/_components/_shared/CustomLink';
+import NavbarMobile from '@/_components/_pages/_shared-pages/_header/_navbar/NavbarMobile';
+import ThemeSwitcher from '@/_components/_pages/_shared-pages/_header/_navbar/ThemeSwitcher';
 import LinkIcon from '@/_components/_icons/LinksIcons';
 
 interface NavLink {

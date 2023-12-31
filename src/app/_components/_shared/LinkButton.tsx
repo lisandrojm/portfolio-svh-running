@@ -1,7 +1,7 @@
 /* src/app/_components/_shared/LinkButton.tsx */
 
 import React from 'react';
-import CustomLink from '@/_components/_links/CustomLink';
+import CustomLink from '@/_components/_shared/CustomLink';
 import { Button, Props as ButtonProps } from '../_ui/Button';
 
 interface LinkButtonProps extends ButtonProps {

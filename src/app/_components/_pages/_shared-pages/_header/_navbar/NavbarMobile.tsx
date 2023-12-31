@@ -1,13 +1,13 @@
-/* src/app/_components/_pages/_home/_navbar/NavbarMobile.tsx */
+/* src/app/_components/_pages/_shared-pages/_navbar/NavbarMobile.tsx */
 
 'use client';
 
 import { useState } from 'react';
 import siteMetadata from '@/_data/siteMetadata';
-import CustomLink from '@/_components/_links/CustomLink';
+import CustomLink from '@/_components/_shared/CustomLink';
 import LinkIcon from '@/_components/_icons/LinksIcons';
 import headerNavLinks from '@/_data/headerNavLinks';
-import LinkButton from '@/_components/_links/LinkButton';
+import LinkButton from '@/_components/_shared/LinkButton';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 export default function NavbarMobile() {

@@ -1,7 +1,10 @@
 /* src/app/_components/_pages/_shared/_/header/Header.tsx */
 
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
-import Navbar from '@/_components/_pages/_shared/_header/_navbar/Navbar';
+import Navbar from '@/_components/_pages/_shared-pages/_header/_navbar/Navbar';
+import ScrollDown from '@/_components/_shared/ScrollDown';
+import ScroDown from '@/_components/_shared/ScrollDown';
+import StickyFooter from '@/_components/_shared/StickerFooter';
 
 export default function Header() {
   return (
@@ -13,11 +16,8 @@ export default function Header() {
             <h1>Header</h1>
           </div>
         </header>
-        <div className="sticky bottom-0  w-full text-2xl text-start pb-5">
-          <div>
-            <h1 className=" border-b border-white font-serif italic">header</h1>
-          </div>
-        </div>
+        <StickyFooter customText="header" />
+        <ScrollDown />
       </SectionXContainer>
     </div>
   );
