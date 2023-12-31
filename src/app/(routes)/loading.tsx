@@ -3,8 +3,8 @@
 export default function RootLoading() {
   return (
     <div className="flex flex-col items-center justify-center h-svh">
-      <div className="border rounded p-3 my-1 mb-3">
-        <h1 className="text-3xl">Loading...</h1>
+      <div className="p-3 my-1 mb-3">
+        <h1 className="text-2xl">Loading...</h1>
       </div>
     </div>
   );
