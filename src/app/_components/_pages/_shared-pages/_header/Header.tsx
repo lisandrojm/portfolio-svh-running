@@ -12,15 +12,9 @@ export default function Header() {
         <Navbar />
         <header className="h-svh-minus">
           <div className="flex flex-col justify-end items-end h-full pb-4">
-            <div className="text-end mb-2">
-              <h1 className="font-mono text-white text-3xl leading-8">
-                FullStack <br />
-                Developer
-              </h1>
-            </div>
-            <div className="text-end mb-2">
-              <h2 className="font-regular uppercase text-7xl font-bold italic text-border-orange text-black">Works</h2>
-              <h2 className="font-regular uppercase text-7xl font-bold italic text-border-orange text-black">Skills</h2>
+            <div className="text-end mb-4">
+              <h2 className="font-regular uppercase text-8xl font-bold italic text-border-orange text-black">Works</h2>
+              <h2 className="font-regular uppercase text-8xl font-bold italic text-border-orange text-black">Skills</h2>
             </div>
             <div>
               <p className="font-serif italic text-end text-xl">
@@ -28,7 +22,7 @@ export default function Header() {
                 based in Argentina.
               </p>
             </div>
-            <div className="py-6">
+            <div className="py-8">
               <LinkButton href="/form" size="xxl" font="mono">
                 Contact Me
               </LinkButton>
@@ -39,7 +33,7 @@ export default function Header() {
                   <span className="border-b border-white block"></span>
                 </div>
                 <div className="text-end">
-                  <p className="font-serif italic text-sm text-orange pt-2">I love the challenges</p>
+                  <p className="font-serif italic text-sm text-orange pt-3 pb-1">I love the challenges</p>
                 </div>
               </div>
             </div>
