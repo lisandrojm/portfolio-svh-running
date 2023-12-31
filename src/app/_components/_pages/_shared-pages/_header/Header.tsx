@@ -3,7 +3,6 @@
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 import Navbar from '@/_components/_pages/_shared-pages/_header/_navbar/Navbar';
 import ScrollDown from '@/_components/_shared/ScrollDown';
-import ScroDown from '@/_components/_shared/ScrollDown';
 import StickyFooter from '@/_components/_shared/StickerFooter';
 
 export default function Header() {
@@ -16,7 +15,7 @@ export default function Header() {
             <h1>Header</h1>
           </div>
         </header>
-        <StickyFooter customText="header" />
+        <StickyFooter customTextLeft="header" customTextRight="All Killer, No filler." />
         <ScrollDown />
       </SectionXContainer>
     </div>

@@ -9,7 +9,7 @@ export default function Works() {
       <p className="py-20 bg-red text-center">Work</p>
       <p className="py-20 bg-orange text-center">Work</p>
       <p className="py-20 bg-violet text-center">Work</p>
-      <StickyFooter customText="works" />
+      <StickyFooter customTextLeft="works" />
     </section>
   );
 }

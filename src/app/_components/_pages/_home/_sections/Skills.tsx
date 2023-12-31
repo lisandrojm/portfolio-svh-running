@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section>
       <p className="py-20 bg-blue text-center">Skills</p>
-      <StickyFooter customText="skills" />
+      <StickyFooter customTextLeft="skills" />
     </section>
   );
 }

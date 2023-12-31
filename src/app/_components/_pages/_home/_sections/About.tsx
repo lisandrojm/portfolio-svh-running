@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section>
       <p className="py-20 bg-electricblue text-center">About</p>
-      <StickyFooter customText="about" />
+      <StickyFooter customTextLeft="about" />
     </section>
   );
 }
