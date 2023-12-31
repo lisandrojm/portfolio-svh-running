@@ -20,7 +20,7 @@ const config: Config = {
         electricblue: 'var(--accent-10)',
       },
       height: {
-        'svh-minus': 'calc(100vh - 68px)',
+        'svh-minus': 'calc(100svh - 68px)',
       },
     },
   },
