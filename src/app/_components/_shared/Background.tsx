@@ -44,7 +44,7 @@ export default function Background() {
             </div>
           </li>
           <li className={`${styles.drift} ${styles.drift9} ${styles.delay5} ${styles.floating_li}`}>
-            <div className={`${styles.float} ${styles.float9} font-bold`}>
+            <div className={`${styles.float} ${styles.float9}`}>
               <Icon kind="react" size={3} />
             </div>
           </li>
@@ -75,13 +75,11 @@ export default function Background() {
               </div>
             </li>
           </div>
-          <div className="bg-blue">
-            <li className={`${styles.drift} ${styles.drift} ${styles.delay2} ${styles.floating_li}`}>
-              <div className={`${styles.float} ${styles.float10}`}>
-                <Icon kind="react" size={3} />
-              </div>
-            </li>
-          </div>
+          <li className={`${styles.drift} ${styles.drift} ${styles.delay2} ${styles.floating_li}`}>
+            <div className={`${styles.float} ${styles.float10}`}>
+              <Icon kind="react" size={3} />
+            </div>
+          </li>
         </ul>
       </section>
     </div>
