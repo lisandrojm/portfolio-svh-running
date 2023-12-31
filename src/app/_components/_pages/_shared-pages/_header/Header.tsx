@@ -12,18 +12,18 @@ export default function Header() {
         <Navbar />
         <header className="h-svh-minus">
           <div className="flex flex-col justify-end items-end h-full pb-4">
-            <div className="text-end mb-4">
-              <h1 className="font-mono text-white text-4xl leading-8">
+            <div className="text-end mb-2">
+              <h1 className="font-mono text-white text-3xl leading-8">
                 FullStack <br />
                 Developer
               </h1>
             </div>
-            <div className="text-end mb-4">
+            <div className="text-end mb-2">
               <h2 className="font-regular uppercase text-7xl font-bold italic text-border-orange text-black">Works</h2>
               <h2 className="font-regular uppercase text-7xl font-bold italic text-border-orange text-black">Skills</h2>
             </div>
             <div>
-              <p className="font-serif italic text-end text-2xl">
+              <p className="font-serif italic text-end text-xl">
                 Hi. My name is Lisandro. <br /> I am a Full Stack developer <br />
                 based in Argentina.
               </p>
