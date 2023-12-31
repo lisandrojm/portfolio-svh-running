@@ -14,7 +14,7 @@ interface NavLink {
 
 export default function Navbar() {
   return (
-    <nav className={`sticky top-0 bg-black z-10 w-full `}>
+    <nav className="sticky top-0 bg-black z-10 w-full">
       <div className="flex items-center justify-between pt-4 pb-2 border-b border-white px-3">
         <div>
           <CustomLink href="/" aria-label={siteMetadata.headerTitle}>
