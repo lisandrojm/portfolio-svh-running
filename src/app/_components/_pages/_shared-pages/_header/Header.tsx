@@ -13,8 +13,8 @@ export default function Header() {
         <header className="h-svh-minus">
           <div className="flex flex-col justify-end items-end h-full pb-4">
             <div className="text-end mb-4">
-              <h2 className="font-regular uppercase text-8xl font-bold italic text-border-orange text-black">Works</h2>
-              <h2 className="font-regular uppercase text-8xl font-bold italic text-border-orange text-black">Skills</h2>
+              <h2 className="font-mono uppercase text-8xl font-bold italic text-border-orange text-black xs--title pe-3">Works</h2>
+              <h2 className="font-regular uppercase text-8xl font-bold italic text-border-orange text-black xs--title pe-3">Skills</h2>
             </div>
             <div>
               <p className="font-serif italic text-end text-xl">

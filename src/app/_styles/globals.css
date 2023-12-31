@@ -179,5 +179,8 @@ body {
   .xs--hide {
     display: none;
   }
+  .xs--title {
+    font-size: 70px;
+  }
   /* ... */
 }
