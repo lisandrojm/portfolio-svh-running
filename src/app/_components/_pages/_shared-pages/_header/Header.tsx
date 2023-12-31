@@ -23,7 +23,7 @@ export default function Header() {
                   <span className="border-b border-white block"></span>
                 </div>
                 <div className="text-end">
-                  <p className="font-serif italic text-sm text-orange pt-1">I love the challenges</p>
+                  <p className="font-serif italic text-sm text-orange pt-2">I love the challenges</p>
                 </div>
               </div>
             </div>
