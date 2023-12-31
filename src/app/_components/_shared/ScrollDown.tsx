@@ -13,14 +13,14 @@ const ScrollDown: React.FC = () => {
         setShowButton(true);
       } else {
         setShowButton(false);
-        window.removeEventListener('scroll', handleScroll); // Elimina el listener después de ocultar la flecha
+        // window.removeEventListener('scroll', handleScroll); // Elimina el listener después de ocultar la flecha
       }
     };
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll); // Limpia el listener cuando el componente se desmonta
+      // window.removeEventListener('scroll', handleScroll); // Limpia el listener cuando el componente se desmonta
     };
   }, []);
 
