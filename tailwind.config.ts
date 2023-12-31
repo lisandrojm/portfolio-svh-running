@@ -19,6 +19,9 @@ const config: Config = {
         darkred: 'var(--accent-9)',
         electricblue: 'var(--accent-10)',
       },
+      height: {
+        'svh-minus': 'calc(100vh - 60px)',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],
