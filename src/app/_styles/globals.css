@@ -32,6 +32,9 @@
     --accent-9: #2d64da;
     --accent-10: #ba3a93;
   }
+  .text-border {
+    -webkit-text-stroke: 1px var(--accent-8);
+  }
 
   @media (prefers-color-scheme: dark) {
     :root {
