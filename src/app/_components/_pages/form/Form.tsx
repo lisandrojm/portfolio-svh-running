@@ -10,9 +10,9 @@ export default function Form() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <SectionXContainer>
-      <div className="mx-auto uppercase max-w-md pt-10">
-        <h2 className="text-3xl font-bold tracking-tight text-orange sm:text-4xl leading-8">
+    <>
+      <div className="mx-auto max-w-md pt-10 uppercase">
+        <h2 className="text-3xl font-bold leading-8 tracking-tight text-orange sm:text-4xl">
           Let&apos;s go <br />
           to the point
         </h2>
@@ -39,6 +39,6 @@ export default function Form() {
           <Button type="submit">Send</Button>
         </div>
       </form>
-    </SectionXContainer>
+    </>
   );
 }
