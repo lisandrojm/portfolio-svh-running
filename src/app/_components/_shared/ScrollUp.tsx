@@ -24,7 +24,7 @@ const ScrollUp: React.FC = () => {
   };
 
   return (
-    <div className={`fixed h-12 w-8 pb-1  flex justify-center items-center bottom-10 right-0 cursor-pointer transition-all ease-out duration-500 z-1 border-solid ${showButton ? 'right-10 md:right-40' : 'translate-x-full'}`} onClick={scrollToTop}>
+    <div className={`fixed pb-1  flex justify-center items-center bottom-10 right-0 cursor-pointer transition-all ease-out duration-500 z-1 border-solid ${showButton ? 'right-10 md:right-40' : 'translate-x-full'}`} onClick={scrollToTop}>
       <button className="p-1 bg-black_a text-xl font-bold text-white">↑</button>
     </div>
   );
