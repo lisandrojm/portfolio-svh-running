@@ -12,7 +12,7 @@ export default function Header() {
         <Navbar />
         <header className="h-svh-header text-end">
           <div className="flex flex-col justify-center items-end h-full pb-4">
-            <div className="mb-4 font-regular uppercase text-8xl font-bold italic text-border-orange text-black xs--title pe-2">
+            <div className="mb-4 font-regular uppercase text-8xl font-bold italic text-orange xs--title pe-2">
               <h2>Works</h2>
               <h2>Skills</h2>
             </div>
