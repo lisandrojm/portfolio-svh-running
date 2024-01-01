@@ -47,7 +47,7 @@ export default function NavbarMobile() {
               </button>
             </div>
           </div>
-          <div className="fixed h-full w-full px-3 pt-8">
+          <div className="fixed h-full w-full px-3 pt-6">
             <ul>
               {headerNavLinks.map((link, index) => (
                 <li key={link.title} className="py-3">
