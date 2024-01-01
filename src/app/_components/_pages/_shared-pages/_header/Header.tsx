@@ -21,7 +21,7 @@ export default function Header() {
                 Hi. My name is Lisandro. <br /> I am a Full Stack developer <br />
                 based in Argentina.
               </p>
-              <div>
+              <div className="pt-2">
                 <p className="text-sm text-orange">I love the challenges</p>
               </div>
             </div>

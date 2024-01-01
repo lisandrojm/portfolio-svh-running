@@ -79,13 +79,6 @@
     --accent-9: #2d64da;
     --accent-10: #ba3a93;
   }
-  /* Customs */
-  .text-border-orange {
-    -webkit-text-stroke: 1px var(--accent-8);
-  }
-  .text-border-white {
-    -webkit-text-stroke: 1px var(--accent-1);
-  }
 }
 /* Global styles */
 html {
