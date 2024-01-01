@@ -5,7 +5,7 @@ import Icon from '@/_components/_icons/Icons';
 
 export default function Background() {
   return (
-    <div>
+    <>
       <section className={`${styles.animated}`}>
         <ul className={`${styles.floating}`}>
           <li className={`${styles.drift} ${styles.drift1} ${styles.delay1} ${styles.floating_li}`}>
@@ -77,6 +77,6 @@ export default function Background() {
           </div>
         </ul>
       </section>
-    </div>
+    </>
   );
 }
