@@ -2,7 +2,7 @@
 
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 import Navbar from '@/_components/_pages/_shared-pages/_header/_navbar/Navbar';
-import StickyFooter from '@/_components/_shared/StickerFooter';
+import ScrollDown from '@/_components/_shared/ScrollDown';
 import LinkButton from '@/_components/_shared/LinkButton';
 
 export default function Header() {
@@ -31,6 +31,7 @@ export default function Header() {
               </LinkButton>
             </div>
           </div>
+          <ScrollDown targetId="works" />
         </header>
       </SectionXContainer>
     </div>
