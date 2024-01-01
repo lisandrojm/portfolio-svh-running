@@ -15,7 +15,7 @@ interface NavLink {
 export default function Navbar() {
   return (
     <nav className="sticky top-0 z-10 w-full">
-      <div className="flex items-center justify-between pt-6 pb-2 border-b border-white bg-black px-3">
+      <div className="flex items-center justify-between border-b border-white bg-black px-3 pb-2 pt-6">
         <div>
           <CustomLink href="/" aria-label={siteMetadata.headerTitle}>
             <div className="flex items-center justify-between">
@@ -36,7 +36,7 @@ export default function Navbar() {
             .map((link: NavLink, index: number) => (
               <div key={link.title} className="hidden lg:inline">
                 <div className="flex">
-                  {index > 0 && <span className="text-white mx-3">|</span>}
+                  {index > 0 && <span className="mx-3 text-white">|</span>}
                   <CustomLink href={link.href} className="hidden text-white lg:inline">
                     {link.title}
                   </CustomLink>
