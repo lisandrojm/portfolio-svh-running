@@ -6,7 +6,7 @@ export default function RootRoutePage() {
   return (
     <LayoutWrapper>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-3xl">Route </h1>
+        <h1 className="text-3xl">Proyect</h1>
         <p>LayoutWrapper</p>
       </div>
     </LayoutWrapper>
