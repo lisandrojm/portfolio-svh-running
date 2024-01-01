@@ -3,14 +3,13 @@
 import siteMetadata from '@/_data/siteMetadata';
 import LinkIcon from '@/_components/_icons/LinksIcons';
 import CustomLink from '@/_components/_shared/CustomLink';
-import SectionXContainer from '@/_components/_containers/SectionXContainer';
 
 export default function Footer() {
   return (
     <footer>
-      <div className="pb-5 pt-4 px-3 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-        <div className="flex justify-center items-center xs--hide">
-          <h6 className="font-serif text-md text-orange">
+      <div className="flex flex-col items-start justify-between gap-4 px-3 pb-5 pt-4 md:flex-row md:items-center">
+        <div className="xs--hide flex items-center justify-center">
+          <h6 className="text-md font-serif text-orange">
             site stack <span className="px-2">|</span>
           </h6>
           <ul className="flex gap-3">
@@ -30,7 +29,7 @@ export default function Footer() {
         </div>
         <div className="flex">
           <LinkIcon kind="github" href={siteMetadata.github} size={2} color="white" />
-          <CustomLink href="https://github.com/lisandrojm/portfolio" className="font-serif italic text-white text-md ml-3">
+          <CustomLink href="https://github.com/lisandrojm/portfolio" className="text-md ml-3 font-serif italic text-white">
             site code →
           </CustomLink>
         </div>

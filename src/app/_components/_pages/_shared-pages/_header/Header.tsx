@@ -1,8 +1,7 @@
 /* src/app/_components/_pages/_shared/_/header/Header.tsx */
 
-import SectionXContainer from "@/_components/_containers/SectionXContainer";
-import Navbar from "@/_components/_pages/_shared-pages/_header/_navbar/Navbar";
-import LinkButton from "@/_components/_shared/LinkButton";
+import Navbar from '@/_components/_pages/_shared-pages/_header/_navbar/Navbar';
+import LinkButton from '@/_components/_shared/LinkButton';
 
 export default function Header() {
   return (
@@ -10,15 +9,14 @@ export default function Header() {
       <header className="h-svh">
         <Navbar />
         <div className="h-full">
-          <div className="flex h-full flex-col items-end justify-center pb-20 text-end">
+          <div className="container flex flex-col items-end justify-center pb-20 text-end">
             <div className="font-regular xs--title mb-4 pe-2 text-7xl font-bold uppercase italic text-orange">
               <h2>Works</h2>
               <h2>Skills</h2>
             </div>
             <div className="font-serif italic">
               <p className=" text-xl">
-                Hi. My name is Lisandro. <br /> I am a Full Stack developer{" "}
-                <br />
+                Hi. My name is Lisandro. <br /> I am a Full Stack developer <br />
                 based in Argentina.
               </p>
               <div className="pt-2">
