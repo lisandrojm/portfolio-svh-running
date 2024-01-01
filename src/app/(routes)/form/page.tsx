@@ -6,10 +6,8 @@ import Provider from '@/_components/_contexts/Provider';
 
 export default function RootForm() {
   return (
-    <Provider>
-      <LayoutWrapper>
-        <Form />
-      </LayoutWrapper>
-    </Provider>
+    <LayoutWrapper>
+      <Form />
+    </LayoutWrapper>
   );
 }
