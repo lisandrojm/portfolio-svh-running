@@ -1,9 +1,9 @@
 /* src/app/(routes)/page.tsx */
 
-import Provider from '@/_components/_pages/_layout/Provider';
+import Provider from '@/_components/_contexts/Provider';
 import SectionXContainer from '@/_components/_containers/SectionXContainer';
 import Background from '@/_components/_shared/Background';
-import ScrollUp from '@/_components/_pages/_layout/ScrollUp';
+import ScrollUp from '@/_components/_shared/ScrollUp';
 import Works from '@/_components/_pages/_home/_sections/Works';
 import Skills from '@/_components/_pages/_home/_sections/Skills';
 import About from '@/_components/_pages/_home/_sections/About';

@@ -4,7 +4,7 @@ import siteMetadata from '@/_data/siteMetadata';
 import headerNavLinks from '@/_data/headerNavLinks';
 import CustomLink from '@/_components/_shared/CustomLink';
 import NavbarMobile from '@/_components/_pages/_shared-pages/_header/_navbar/NavbarMobile';
-import ThemeSwitcher from '@/_components/_pages/_shared-pages/_header/_navbar/ThemeSwitcher';
+import ThemeSwitcher from '@/_components/_shared/ThemeSwitcher';
 import LinkIcon from '@/_components/_icons/LinksIcons';
 
 interface NavLink {
@@ -14,8 +14,8 @@ interface NavLink {
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 bg-black z-10 w-full">
-      <div className="flex items-center justify-between pt-4 pb-2 border-b border-white px-3">
+    <nav className="sticky top-0 z-10 w-full">
+      <div className="flex items-center justify-between pt-6 pb-2 border-b border-white bg-black px-3">
         <div>
           <CustomLink href="/" aria-label={siteMetadata.headerTitle}>
             <div className="flex items-center justify-between">

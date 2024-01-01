@@ -1,4 +1,4 @@
-/* src/app/_components/_pages/_shared-pages/_navbar/ThemeSwitcher.tsx */
+/* src/app/_components/_shared/ThemeSwitcher.tsx */
 
 'use client';
 

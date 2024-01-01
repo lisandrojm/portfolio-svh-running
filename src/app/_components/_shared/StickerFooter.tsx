@@ -1,4 +1,5 @@
-// src/app/_components/_shared/LinkButton.tsx
+/* src/app/_components/_shared/LinkButton.tsx */
+
 import React from 'react';
 
 interface StickyFooterProps {

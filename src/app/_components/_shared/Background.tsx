@@ -1,4 +1,4 @@
-/* src/app/_components/_pages/_layout/Background.tsx */
+/* src/app/_components/_shared/Background.tsx */
 
 import styles from '@/_styles/_components/Background.module.css';
 import Icon from '@/_components/_icons/Icons';
@@ -75,11 +75,6 @@ export default function Background() {
               </div>
             </li>
           </div>
-          <li className={`${styles.drift} ${styles.drift} ${styles.delay2} ${styles.floating_li}`}>
-            <div className={`${styles.float} ${styles.float10}`}>
-              <Icon kind="react" size={3} />
-            </div>
-          </li>
         </ul>
       </section>
     </div>
