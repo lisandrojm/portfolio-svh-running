@@ -1,6 +1,6 @@
 /* src/app/_components/_containers/SectionXContainer.tsx */
 
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;

@@ -19,16 +19,16 @@ export default function RootHome() {
   return (
     <Provider>
       <Background />
-      <Header />
-      <main>
-        <SectionXContainer>
+      <SectionXContainer>
+        <Header />
+        <main>
           <Works />
           <Skills />
           <About />
           <Contact />
-        </SectionXContainer>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </SectionXContainer>
       <ScrollUp />
     </Provider>
   );
