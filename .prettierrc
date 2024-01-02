@@ -1,5 +1,4 @@
 {
-  "plugins": ["prettier-plugin-tailwindcss"],
   "printWidth": 9999,
   "singleQuote": true,
   "overrides": [
@@ -11,5 +10,6 @@
         "jsxSingleQuote": false
       }
     }
-  ]
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
